@@ -1,0 +1,71 @@
+.hero {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('../../images/home/header/Header.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 100vh;
+    padding-top: 128px;
+    padding-bottom: 192px;
+}
+
+.hero__inner {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.hero__inner-subtitle {
+color: white;
+font-family: var(--ff-InterRegular);
+letter-spacing: 3px;
+text-align: left;
+text-transform: uppercase;
+}
+
+.hero__inner-title {
+    color: white;
+    font-family: var(--ff-SenBold);
+    font-size: var(--h1-size);
+    font-weight: 700;
+    line-height: var(--lh-64);
+    width: 100%;
+    max-width: 800px;
+}
+
+.hero__inner-description {
+    color: white;
+    font-family: var(--ff-InterRegular);
+    text-align: left;
+}
+
+.hero__inner-description span {
+    color: Yellow;
+}
+
+.hero__inner-text {
+    color: white;
+    font-family: var(--ff-InterRegular);
+    line-height: 28px;
+    text-align: left;
+    width: 100%;
+    max-width: 600px;
+}
+
+.hero__inner-btn {
+width: 204px;
+height: 56px;
+padding: 16px 48px 16px 48px;
+color: black;
+font-family: var(--ff-SenBold);
+font-size: 18px;
+font-weight: 700;
+white-space: nowrap;
+transition: all 0.5s;
+background-color: Yellow;
+
+}
+
+.active:hover {
+    background-color: rgba(237, 193, 74, 1);
+}
