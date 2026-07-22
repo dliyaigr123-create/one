@@ -1,0 +1,20 @@
+@font-face {
+    font-family: interBlack;
+    src: url('../fonts/Inter_Black.woff2');
+}
+@font-face {
+    font-family: interMedium;
+    src: url('../fonts/Inter_Medium.woff2');
+}
+@font-face {
+    font-family: interRegular;
+    src: url('../fonts/Inter_Regular.woff2');
+}
+@font-face {
+    font-family: interSemiBold;
+    src: url('../fonts/Inter_SemiBold.woff2');
+}
+@font-face {
+    font-family: senBold;
+    src: url('../fonts/Sen-Bold.woff2');
+}

@@ -1,0 +1,47 @@
+.header__top {
+    background: rgba(35, 37, 54, 1);
+}
+
+.header__top-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 26px 0;
+}
+
+.nav__inner {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+
+}
+
+.header__nav {
+
+}
+
+.header__list {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    list-style: none;
+}
+
+.header__item {
+
+}
+
+.header__link {
+    font-family: var(--ff-InterRegular);
+}
+
+.header__btn {
+    background-color: white;
+    padding: 16px 48px;
+    color: rgba(35, 37, 54, 1);
+    font-family: var(--ff-SenBold);
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+
+}

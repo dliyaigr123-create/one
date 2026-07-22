@@ -1,0 +1,41 @@
+:root {
+    --h1-size: 48px;
+    --h2-size: 36px;
+    --h3-size: 28px;
+    --h4-size: 24px;
+    --h5-size: 20px;
+    --h6-size: 16px;
+    
+    --ff-SenBold: senBold;
+    --ff-InterSemiBold: interSemiBold;
+    --ff-InterRegular: interRegular;
+    --ff-InterMedium: interMedium;
+    --ff-InterBlack: interBlack;
+
+    --lh-64: 64px;
+    --lh-48: 48px;
+    --lh-36: 36px;
+    --lh-32: 32px;
+    --lh-24: 24px;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.container  {
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.big__container {
+    width: 100%;
+}
