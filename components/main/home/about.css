@@ -1,0 +1,119 @@
+.about {
+    margin-top: 128px;
+    margin-bottom: 128px;
+}
+
+.about__wrapper {
+    padding: 100px 100px 100px 80px;
+    background: rgba(244, 240, 248, 1);
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 80px;
+}
+
+.about__bc-wrapper {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.about__bc-yellow {
+    width: 843px;
+    height: 23px;
+    background-color: #FFD050;
+}
+
+.about__bc-purple {
+    width: 282px;
+    height: 23px;
+    background: rgba(89, 46, 169, 1);
+}
+
+.about__us {
+
+}
+
+.about__us-subtitle {
+    color: rgba(35, 37, 54, 1);
+    font-family: var(--ff-InterSemiBold);
+    font-weight: 600;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+}
+
+.about__us-title {
+    color: rgba(35, 37, 54, 1);
+    font-family: var(--ff-SenBold);
+    font-size: var(--h2-size);
+    font-weight: 700;
+    line-height: var(--lh-48);
+    text-align: left;
+    width: 100%;
+    max-width: 560px;
+    margin-bottom: 16px;
+
+}
+
+.about__us-description {
+    color: rgba(109, 110, 118, 1);
+    font-family: var(--ff-InterRegular);
+    line-height: 28px;
+    text-align: left;
+    width: 100%;
+    max-width: 500px;
+    margin-bottom: 16px;
+
+}
+
+.about__us-btn {
+    width: 204px;
+    height: 56px;
+    color: purple;
+    font-family: var(--ff-SenBold);
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+    padding: 16px 48px;
+    white-space: nowrap;
+    transition: 0.5s;
+}   
+
+.active {
+
+}
+
+.about__our {
+
+}
+
+.about__our-subtitle {
+    color: var(--Black, rgba(35, 37, 54, 1));
+    font-family: var(--ff-InterSemiBold);
+    font-weight: 600;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+}
+
+.about__our-title {
+    color: rgba(35, 37, 54, 1);
+    font-family: var(--ff-SenBold);
+    font-size: var(--h2-size);
+    font-weight: 700;
+    line-height: 40px;
+    text-align: left;
+    width: 100%;
+    max-width: 580px;
+    margin-bottom: 16px;
+}
+
+.about__our-description {
+    color: rgba(109, 110, 118, 1);
+    font-family: var(--ff-InterRegular);
+    line-height: 28px;
+    text-align: left;
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 16px;
+}

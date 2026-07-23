@@ -8,9 +8,6 @@
     gap: 32px;
 }
 
-.posts__featured {
-
-}
 
 .posts__title {
     margin-bottom: 32px;
@@ -25,9 +22,6 @@
     padding: 32px;
 }
 
-.featured-post__content {
-
-}
 
 .featured-post__meta {
     font-family: var(--ff-InterMedium);
