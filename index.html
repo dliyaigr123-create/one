@@ -7,7 +7,8 @@
     <link rel="stylesheet" href="./components/style.css" />
     <link rel="stylesheet" href="./components/fonts.css" />
     <link rel="stylesheet" href="./components/header/headerTop.css" />
-    <link rel="stylesheet" href="./components/header/hero.css">
+    <link rel="stylesheet" href="./components/header/hero.css" />
+    <link rel="stylesheet" href="./components/main/posts.css">
   </head>
   <body>
     <!-- ! Header -->
@@ -41,19 +42,91 @@
         </div>
       </div>
       <!-- ! Hero -->
-       <div class="big__container">
+      <div class="big__container">
         <section class="hero">
-            <div class="container">
-                <div class="hero__inner">
-                <p class="hero__inner-subtitle">Posted on startup</p>
-                <h1 class="hero__inner-title">Step-by-step guide to choosing great font pairs</h1>
-                <p class="hero__inner-description">By <span>James West</span>  |  May 23, 2022 </p>
-                <p class="hero__inner-text">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
-                <button class="hero__inner-btn active">Read More ></button>
+          <div class="container">
+            <div class="hero__inner">
+              <p class="hero__inner-subtitle">Posted on startup</p>
+              <h1 class="hero__inner-title">
+                Step-by-step guide to choosing great font pairs
+              </h1>
+              <p class="hero__inner-description">
+                By <span>James West</span> | May 23, 2022
+              </p>
+              <p class="hero__inner-text">
+                Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                cupidatat non proident.
+              </p>
+              <button class="hero__inner-btn active">Read More ></button>
             </div>
-            </div>
+          </div>
         </section>
-       </div>
+      </div>
     </header>
+    <!-- ! MAIN -->
+    <main class="main">
+      <section class="posts">
+        <div class="container">
+          <div class="posts__wrapper">
+            <!-- ! Левая колонка -->
+            <section class="posts__featured">
+              <h2 class="posts__title">Featured Post</h2>
+
+              <article class="featured-post">
+                <img src="./images/home/posts/posts.png" alt="Featured Post" />
+
+                <div class="featured-post__content">
+                  <p class="featured-post__meta">By <span>John Doe</span> | May 23, 2022</p>
+
+                  <h3 class="featured-post__title">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
+                  </h3>
+
+                  <p class="featured-post__text">
+                  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
+                  </p>
+
+                  <button href="#" class="post__btn active"> Read More > </button>
+                </div>
+              </article>
+            </section>
+
+            <!-- ! Правая колонка -->
+            <section class="posts__list">
+              <div class="posts__header">
+                <h2 class="posts__title">All Posts</h2>
+                <a href="#">View All</a>
+              </div>
+
+              <article class="post-item block-active">
+                <p class="post-item__meta">By <span>John Doe</span> | Aug 23, 2021</p>
+                <h3 class="post-item__title">
+                  8 Figma design systems that you can download for free today.
+                </h3>
+              </article>
+              <article class="post-item block-active">
+                <p class="post-item__meta">By <span>John Doe</span> | Aug 23, 2021</p>
+                <h3 class="post-item__title">
+                  8 Figma design systems that you can download for free today.
+                </h3>
+              </article>
+              <article class="post-item block-active">
+                <p class="post-item__meta">By <span>John Doe</span> | Aug 23, 2021</p>
+                <h3 class="post-item__title">
+                  8 Figma design systems that you can download for free today.
+                </h3>
+              </article>
+              <article class="post-item block-active">
+                <p class="post-item__meta">By <span>John Doe</span> | Aug 23, 2021</p>
+                <h3 class="post-item__title">
+                  8 Figma design systems that you can download for free today.
+                </h3>
+              </article>
+            </section>
+          </div>
+        </div>
+      </section>
+    </main>
   </body>
 </html>

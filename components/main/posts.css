@@ -1,0 +1,132 @@
+.posts {
+    margin-top: 128px;
+}
+
+.posts__wrapper {
+    display: flex;
+    align-items: flex-start;
+    gap: 32px;
+}
+
+.posts__featured {
+
+}
+
+.posts__title {
+    margin-bottom: 32px;
+    color:rgba(35, 37, 54, 1);
+    font-family: var(--ff-SenBold);
+    font-size: var(--h2-size);
+    font-weight: 700;
+    line-height: var(--lh-48);
+}
+
+.featured-post {
+    padding: 32px;
+}
+
+.featured-post__content {
+
+}
+
+.featured-post__meta {
+    font-family: var(--ff-InterMedium);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    margin-top: 32px;
+    margin-bottom: 16px;
+}
+
+.featured-post__meta span {
+    color: blue;
+}
+
+.featured-post__title {
+    color: rgba(35, 37, 54, 1);
+    font-family: var(--ff-SenBold);
+    font-size: var(--h3-size);
+    font-weight: 700;
+    line-height: 40px;
+    text-align: left;
+    width: 100%;
+    max-width: 700px;
+    margin-bottom: 16px;
+}
+
+.featured-post__text {
+    color:rgba(109, 110, 118, 1);
+    font-family: var(--ff-InterRegular);
+    line-height: 28px;
+    text-align: left;
+    width: 100%;
+    max-width: 530px;
+    margin-bottom: 32px;
+
+}
+
+.post__btn {
+    width: 204px;
+    height: 56px;
+    padding: 16px 48px 16px 48px;
+    color: black;
+    font-family: var(--ff-SenBold);
+    font-size: 18px;
+    font-weight: 700;
+    white-space: nowrap;
+    transition: all 0.5s;
+    background-color: Yellow;
+    cursor: pointer;
+}
+
+.posts__list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.posts__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.posts__header a {
+    color: rgba(89, 46, 169, 1);
+    font-family: var(--ff-InterRegular);
+    line-height: 28px;
+}
+
+
+.post-item {
+    padding: 25px 0 25px 32px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.post-item__meta {
+    font-family: var(--ff-InterMedium);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    margin-bottom: 8px;
+}
+
+.post-item__meta span{
+    color: blue;
+}
+
+.post-item__title {
+    color: rgba(35, 37, 54, 1);
+    font-family: var(--ff-SenBold);
+    font-size: var(--h4-size);
+    font-weight: 700;
+    line-height: 32px;
+    text-align: left;
+    width: 100%;
+    max-width: 370px;
+}
+
+.block-active:hover {
+    background: var(--Lightyellow, rgba(251, 246, 234, 1));
+}

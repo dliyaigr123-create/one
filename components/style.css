@@ -30,6 +30,10 @@ a {
     color: white;
 }
 
+span {
+    cursor: pointer;
+}
+
 .container  {
     max-width: 1500px;
     margin: 0 auto;
